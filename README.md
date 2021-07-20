@@ -4,7 +4,7 @@
 
 <p align="center">
     <br>
-    <img src="https://raw.githubusercontent.com/dkedar7/neural-style-transfer/dev/style-transfer/assets/icon.png" width="200"/>
+    <img src="https://raw.githubusercontent.com/dkedar7/anuvad/main/anuvad/assets/icon.png" width="200"/>
     <br>
 <p>
 
@@ -22,16 +22,14 @@
 
 
 #### Under active development
-Inspired from this PyTorch [tutorial](https://github.com/pytorch/examples/tree/master/fast_neural_style/).
 
 
 ## Installation (WIP)
 
-The demo application is currently hosted [here](https://neural-style-transfer-hpn4y2dvda-uc.a.run.app/).
 
 #### Step 1. Clone this repository by running
 
-    git clone https://github.com/dkedar7/neural-style-transfer
+    git clone https://github.com/dkedar7/anuvad
     
 #### Step 2. Create a virtual environement by running
 
@@ -58,7 +56,6 @@ Use `localhost:8080` to interact with the application.
 
 ## About the demo deployment
 
-The [demo deployment](https://neural-style-transfer-hpn4y2dvda-uc.a.run.app/) uses Google Build to containerize the application, Google Container Registry for storing and managing a container and Google Cloud Run to deploy it as a web endpoint.
 
 ![Cloud Run Architecture](https://github.com/dkedar7/Data-Analyzer/blob/master/Analyzer/assets/architecture.png?raw=true)
 
@@ -67,7 +64,7 @@ The [demo deployment](https://neural-style-transfer-hpn4y2dvda-uc.a.run.app/) us
 ## Limitations (WIP)
 
 ## License
-Neural Style Transfer uses the [MIT license](https://github.com/dkedar7/neural-style-transfer/blob/master/LICENSE).
+Neural Style Transfer uses the [MIT license](https://github.com/dkedar7/anuvad/blob/master/LICENSE).
 
 ## Dependencies
 
