@@ -1,5 +1,5 @@
 <p>
-    <h1 align="center">Neural Style Transfer</h1>
+    <h1 align="center">Anuvad</h1>
 <p>
 
 <p align="center">
