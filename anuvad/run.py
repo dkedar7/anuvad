@@ -39,6 +39,11 @@ def update_original_image(contents):
         content_type, content_string = contents.split(',')
         content_image_string = 'data:image/png;base64,{}'.format(content_string)
         return content_image_string
+    else:
+        image_filename = 'assets/defaultimage.jpg' # replace with your own image
+        encoded_image = base64.b64encode(open(image_filename, 'rb').read()).decode("utf-8")
+        default_image = 'data:image/png;base64,{}'.format(encoded_image)
+        return default_image
 
 
 if __name__ == '__main__':
