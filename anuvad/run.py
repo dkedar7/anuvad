@@ -21,14 +21,13 @@ from app import app, server, cache
 app.layout = layout
 
 @app.callback(
-    Output('processed-image', 'src'),
+    Output('processed-text', 'children'),
     [Input('upload-image', 'contents'),
     Input('passage_dropdown', 'value')]
 )
 def update_processed_image(contents, model):
-    if contents:
-        content_type, content_string = contents.split(',')
-        return None
+    return ["Placeholder text"]
+
 
 @app.callback(
     Output('original-image', 'src'),
