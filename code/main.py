@@ -16,7 +16,7 @@ except ImportError:
 
 
 # example token
-GOOGLE_API_TOKEN = "ya29.c.Kp8BCAhJOfFa8WAtq6tg-r-ScEWzxm6563Nlx0-pVvuAmdhjUVMZcRzchA_JcwLu19BN-MvQVlf7N91e2kPH6Fcf0-m_WRku2CXfrLMW8sJHi_HQ8cjYdUQWILEe3u40nC-WVe9dg81mfXeG6Ss7eOTuJ411HiB9aNdT5Ddbw8JwY-zVwrEBbcZ8dXM9HanaQ_xe57StT-YqHJWfKoMuKyz9"
+GOOGLE_API_TOKEN = ""
 
 DIR = input("Enter name of the folder with images of scanned book: ")
 
