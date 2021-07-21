@@ -76,4 +76,3 @@ def translate_to_marathi(DIR):
     )
 
     return translated_pages
-
