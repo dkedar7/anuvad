@@ -18,15 +18,18 @@ import re
 from layout import layout as layout
 from app import app, server, cache
 
+from callbacks import detect_and_translate
+
 app.layout = layout
 
 @app.callback(
     Output('processed-text', 'children'),
-    [Input('upload-image', 'contents'),
-    Input('passage_dropdown', 'value')]
+    [Input('upload-image', 'contents')]
 )
-def update_processed_image(contents, model):
-    return ["Placeholder text"]
+def update_processed_image(contents):
+    if contents:
+        content_type, content_string = contents.split(',')
+        return detect_and_translate(content_string)
 
 
 @app.callback(
