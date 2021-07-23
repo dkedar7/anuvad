@@ -33,19 +33,19 @@
     
 #### Step 2. Create a virtual environement by running
 
-    python -m venv StyleTransfer
+    python -m venv Anuvad
         
 #### Step 3. Active this environment, on Windows:
 
-    StyleTransfer\scripts\activate
+    Anuvad\scripts\activate
 
 MacOS or Linux:
 
-    source StyleTransfer/bin/activate
+    source Anuvad/bin/activate
     
 #### Step 4. Open the directory and install dependencies
 
-    cd style-transfer/
+    cd anuvad/
     pip install -r requirements.txt
     
 #### Step 5. Launch the web application
@@ -64,8 +64,8 @@ Use `localhost:8080` to interact with the application.
 ## Limitations (WIP)
 
 ## License
-Neural Style Transfer uses the [MIT license](https://github.com/dkedar7/anuvad/blob/master/LICENSE).
+Anuvad uses the [MIT license](https://github.com/dkedar7/anuvad/blob/master/LICENSE).
 
 ## Dependencies
 
-You need [Python 3](https://python3statement.org/) to run this application. Other dependencies can be found in the [requirements.txt](https://github.com/dkedar7/neural-style-transfer/blob/main/style-transfer/requirements.txt) file.
+You need [Python 3](https://python3statement.org/) to run this application. Other dependencies can be found in the [requirements.txt](https://github.com/dkedar7/anuvad/blob/main/anuvad/requirements.txt) file.
