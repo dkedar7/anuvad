@@ -99,7 +99,7 @@ footer = dbc.Row(
             'This application uses Google Vision APIs to do both of these tasks. '
             'Visit the ',
             html.A("GitHub repository", 
-                    href = "https://github.com/pytorch/examples/tree/master/fast_neural_style/",
+                    href = "https://github.com/dkedar7/anuvad/",
                     target = "_blank"),
             ' to learn more.'
         ],
