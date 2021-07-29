@@ -1,7 +1,3 @@
-<p>
-    <h1 align="center">Anuvad</h1>
-<p>
-
 <p align="center">
     <br>
     <img src="https://raw.githubusercontent.com/dkedar7/anuvad/main/anuvad/assets/icon.png" width="200"/>
