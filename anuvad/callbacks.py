@@ -1,7 +1,7 @@
 import os
 import base64
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/kedardabhadkar/anuvad/anuvad/web-apps-273916-36a791351d58.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "web-apps-273916-36a791351d58.json"
 
 
 def detect_text(content):
