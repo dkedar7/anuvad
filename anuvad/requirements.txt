@@ -5,3 +5,5 @@ dash==1.13.4
 dash_bootstrap_components==0.10.3
 flask_caching==1.9.0
 requests==2.24.0
+google-cloud-translate==2.0.1
+google-cloud-vision==2.4.1
