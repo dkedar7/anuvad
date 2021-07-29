@@ -25,12 +25,12 @@ body_paragraph = dbc.Row(
     [
         dbc.Col(
                 [
-
                     html.Br(),
-                    html.H5(
-                        "Translate text from English to your native language",
-                        style={'text-align':'center', "color":"darkgray", "font-family": "Verdana; Gill Sans"}
-                            )
+                    html.H5("Translate text from English to many different languages.",
+                        style={'text-align':'center', "color":"darkgray", "font-family": "Verdana; Gill Sans"}),
+                    html.Br(),
+                    html.H6("This application currently only supports translating English text to Marathi.",
+                        style={'text-align':'center', "color":"darkgray", "font-family": "Verdana; Gill Sans"})
                 ],
                 style ={"padding":"1% 1% 3% 0%", "background-color":theme_color_code}
                )
@@ -94,17 +94,21 @@ footer = dbc.Row(
     dbc.Col(
         html.Div(
         [
-            'Transferring styles from one image to another is just one application of a class neural networks called Generalized Adversarial Networks'
-        ' or GANs, for short. This application uses open-source work from ',
-        html.A("PyTorch tutorials.", 
-                href = "https://github.com/pytorch/examples/tree/master/fast_neural_style/",
-                target = "_blank")
+            'To be able to translate text in this manner, the model must first identify English text from an image '
+            'and then translate it into the chosen language. '
+            'This application uses Google Vision APIs to do both of these tasks. '
+            'Visit the ',
+            html.A("GitHub repository", 
+                    href = "https://github.com/pytorch/examples/tree/master/fast_neural_style/",
+                    target = "_blank"),
+            ' to learn more.'
         ],
     ),
     width={"size": 10}
 ), 
     justify='center',
-    align='center'
+    align='center',
+    style={'margin-bottom': "10%"}
 )
 
 ### Bring it together
