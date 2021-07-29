@@ -4,7 +4,7 @@ import base64
 import os
 
 from layout import layout as layout
-from app import app
+from app import app, server
 
 from callbacks import detect_and_translate
 
